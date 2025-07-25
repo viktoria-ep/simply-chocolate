@@ -23,11 +23,11 @@
   <body>
     <header class="header">
       <div class="container">
+        <nav class="header-nav">
         <a class="header-logo" href="./index.html"
           ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE</a
         >
-        <nav class="header-nav">
-          <ul class="header-list menu-list">
+          <ul class="header-menu-list">
             <li class="header-item menu-item">
               <a class="header-link menu-link" href="">Home</a>
             </li>
@@ -50,9 +50,11 @@
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
-          <button class="hero-btn btn" type="button">Buy now</button>
-          <a href="#made" class="hero-anchor-link btn">How it's made</a>
-          <a href="" class="hero-scroll-link">scroll down</a>
+          <div class="hero-buttons">
+            <button class="hero-btn btn" type="button">Buy now</button>
+            <a href="#made" class="hero-anchor-link btn">How it's made</a>
+            <a href="" class="hero-scroll-link">scroll down</a>
+          </div>
         </div>
       </div>
       </section>
@@ -114,7 +116,7 @@
               height="160"
               alt="Milk chocolate"
             />
-            <h3 class="taste-subtitle">Milk chocolate</h3>
+            <h3 class="taste-subtitle white-accent">Milk chocolate</h3>
           </li>
           <li class="taste-item">
             <img
@@ -144,7 +146,7 @@
               height="160"
               alt="Nuts"
             />
-            <h3 class="taste-subtitle">Nuts</h3>
+            <h3 class="taste-subtitle white-accent">Nuts</h3>
           </li>
         </ul>
       </div>
@@ -155,47 +157,51 @@
         <h2 class="made-title section-title">
           How it's <span class="accent">made?</span>
         </h2>
-        <img
-          class="made-image"
-          src="./images/hot-chocolate.jpg"
-          alt="Hot chocolate"
-          width="600"
-          height="400"
-        />
-        <h3 class="made-subtitle">
-          Try our chocolates today and discover the perfect balance of flavor
-        </h3>
-        <ul class="made-list">
-          <li class="made-item">
-            <p class="made-item-text">
-              Heat the milk in a saucepan without bringing it to a boil. Add
-              sugar and cocoa powder.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              At the same time, prepare a water bath. Melt the butter on it.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              "Mix" the milk mixture and already liquid butter. Mix thoroughly
-              with a silicone spatula so that the mass becomes uniform and
-              silky.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              Heat the mixture over low heat, letting it barely boil.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              Pour the chocolate into special containers (can be replaced with
-              ice molds). Allow to cool and harden.
-            </p>
-          </li>
-        </ul>
+        <div class="made-wrapper">
+          <img
+            class="made-image"
+            src="./images/hot-chocolate.jpg"
+            alt="Hot chocolate"
+            width="600"
+            height="400"
+          />
+          <div class="made-wrapper-list">
+            <h3 class="made-subtitle">
+              Try our chocolates today and discover the perfect balance of flavor
+            </h3>
+            <ul class="made-list">
+              <li class="made-item">
+                <p class="made-item-text">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  "Mix" the milk mixture and already liquid butter. Mix thoroughly
+                  with a silicone spatula so that the mass becomes uniform and
+                  silky.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  Heat the mixture over low heat, letting it barely boil.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  Pour the chocolate into special containers (can be replaced with
+                  ice molds). Allow to cool and harden.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       </section>
 
@@ -206,48 +212,54 @@
         </h2>
         <ul class="reviews-list">
           <li class="reviews-item">
-            <img
-              class="reviews-image"
-              src="./images/review-1-min.jpg"
-              width="80"
-              height="80"
-              alt="Victoria Dobrzhanska"
-            />
-            <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
-            <p class="reviews-subtitle-text">
-              I love this chocolate bar. Perfect combination of light crispy
-              wafer, covered in a thin layer chocolate.
-            </p>
+            <div class="reviews-wrapper">
+              <img
+                class="reviews-image"
+                src="./images/review-1-min.jpg"
+                width="80"
+                height="80"
+                alt="Victoria Dobrzhanska"
+              />
+              <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
+              <p class="reviews-subtitle-text">
+                I love this chocolate bar. Perfect combination of light crispy
+                wafer, covered in a thin layer chocolate.
+              </p>
+            </div>
           </li>
           <li class="reviews-item">
-            <img
-              class="reviews-image"
-              src="./images/review-2-min.jpg"
-              width="80"
-              height="80"
-              alt="Nazar Babenko"
-            />
-            <h3 class="reviews-subtitle">Nazar Babenko</h3>
-            <p class="reviews-subtitle-text">
-              This chocolate confection is a delight! A delight! The wafer is
-              light and crisp, the hazelnut cream is smooth, and the chocolate
-              is good.
-            </p>
+            <div class="reviews-wrapper">
+              <img
+                class="reviews-image"
+                src="./images/review-2-min.jpg"
+                width="80"
+                height="80"
+                alt="Nazar Babenko"
+              />
+              <h3 class="reviews-subtitle">Nazar Babenko</h3>
+              <p class="reviews-subtitle-text">
+                This chocolate confection is a delight! A delight! The wafer is
+                light and crisp, the hazelnut cream is smooth, and the chocolate
+                is good.
+              </p>
+            </div>
           </li>
           <li class="reviews-item">
-            <img
-              class="reviews-image"
-              src="./images/review-3-min.jpg"
-              width="80"
-              height="80"
-              alt="Olena Kampusch"
-            />
-            <h3 class="reviews-subtitle">Olena Kampusch</h3>
-            <p class="reviews-subtitle-text">
-              Chocolate is a family favourite treat. Love the delicious smooth
-              chocolate and the creaminess inside. The wafer is soft but
-              crunchy.
-            </p>
+            <div class="reviews-wrapper">
+              <img
+                class="reviews-image"
+                src="./images/review-3-min.jpg"
+                width="80"
+                height="80"
+                alt="Olena Kampusch"
+              />
+              <h3 class="reviews-subtitle">Olena Kampusch</h3>
+              <p class="reviews-subtitle-text">
+                Chocolate is a family favourite treat. Love the delicious smooth
+                chocolate and the creaminess inside. The wafer is soft but
+                crunchy.
+              </p>
+            </div>
           </li>
         </ul>
         <button type="button" class="reviews-btn btn">Leave a review</button>
@@ -257,35 +269,41 @@
 
     <footer class="footer">
       <div class="container">
-      <p class="footer-title">
-        <span class="accent">Chocolate</span> a delicious cure for a bad day
-      </p>
-      <p class="footer-subtitle">Contact us</p>
-      <address class="footer-address">
-        <ul class="footer-list menu-list">
-          <li class="footer-item">
-            <a class="footer-link" href="tel:+380684439426"
-              >+380 (68) 443-94-26</a
-            ><br />
+      <div class="footer-wrapper">
+        <p class="footer-title">
+          <span class="accent">Chocolate</span> a delicious cure for a bad day
+        </p>
+        <div class="wrapper-address">
+          <p class="footer-subtitle">Contact us</p>
+          <address class="footer-address">
+            <ul class="footer-list menu-list">
+              <li class="footer-item">
+                <a class="footer-link" href="tel:+380684439426"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="mailto:simplycthаoc@gmail.com"
+                  >simplycthаoc@gmail.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+      <div class="wrapper-footer-menu">
+        <ul class="footer-menu-list menu-list">
+          <li class="footer-menu-item menu-item">
+            <a class="footer-menu-link menu-link" href="">Home</a>
           </li>
-          <li class="footer-item">
-            <a class="footer-link" href="mailto:simplycthаoc@gmail.com"
-              >simplycthаoc@gmail.com</a
-            >
+          <li class="footer-menu-item menu-item">
+            <a class="footer-menu-link menu-link" href="">How it's made?</a>
+          </li>
+          <li class="footer-menu-item menu-item">
+            <a class="footer-menu-link menu-link" href="">Chocolate is loved</a>
           </li>
         </ul>
-      </address>
-      <ul class="footer-menu-list menu-list">
-        <li class="footer-menu-item menu-item">
-          <a class="footer-menu-link menu-link" href="">Home</a>
-        </li>
-        <li class="footer-menu-item menu-item">
-          <a class="footer-menu-link menu-link" href="">How it's made?</a>
-        </li>
-        <li class="footer-menu-item menu-item">
-          <a class="footer-menu-link menu-link" href="">Chocolate is loved</a>
-        </li>
-      </ul>
+      </div>
     </div>
     </footer>
   </body>
